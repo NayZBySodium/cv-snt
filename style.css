@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.identite {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.identite .photo {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 0px;
+}
+
+.identite .photo img {
+    width: 110px;
+    height: 110px;
+}
+
+.identite .adresse {
+    margin: 5px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.identite .age {
+    margin: 5px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.identite .nom {
+    margin: 5px;
+    padding: 0px;
+    font-weight: 700;
+}
+
+.identite .tel {
+    margin: 5px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.identite .mail {
+    margin: 5px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.objectif {
+    text-align: center;
+    font-weight: 900;
+    margin: 40px;
+    padding: 0px;
+}
+
+.soustitre {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.soustitre h2 {
+    font-weight: 800;
+    margin: 5px;
+}
+
+.soustitre .carre {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: orange;
+    margin: 5px;
+}
+
+.formation .etudes {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.formation .etudes .etude {
+    margin: 10px;
+}
+
+.formation .etudes .etude .date {
+    display: inline-block;
+    background: linear-gradient(91.47deg, #414141 17.25%, #000000 89.27%);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 700;
+}
+
+.formation .etudes .etude .etudedesc .diplome {
+    margin: 5px;
+    font-weight: 600;
+}
+
+.formation .etudes .etude .etudedesc .description_etude {
+    margin: 5px;
+    font-weight: 600;
+}
+
+.formation .etudes .etude .etudedesc .lieu {
+    margin: 5px;
+    font-weight: 500;
+}
+
+.experience .experiences {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.experience .experiences .expitem {
+    margin: 10px;
+}
+
+.experience .experiences .date {
+    display: inline-block;
+    background: linear-gradient(91.47deg, #414141 17.25%, #000000 89.27%);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 700;
+}
+
+.experience .experiences .expitem .description .precision {
+    margin: 5px;
+    font-weight: 500;
+}
+
+.experience .experiences .expitem .description .intitule {
+    margin: 5px;
+    font-weight: 600;
+}
