@@ -177,9 +177,35 @@ body {
     margin: 20px;
 }
 
+.langue-item {
+    margin: 10px;
+}
+
 .languecompetence {
     font-weight: 600;
-    margin: 15px;
+    margin: 5px;
+}
+
+.langue-item .line {
+    width: 200px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.langue-item .line #anglais.filled {
+    width: 65%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.langue-item .line #francais.filled {
+    width: 90%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 30px;
 }
 
 .info-container {
