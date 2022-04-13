@@ -100,6 +100,7 @@ body {
     padding: 5px;
     margin: 5px;
     font-weight: 700;
+    justify-self: right;
 }
 
 .formation .etudes .etude .etudedesc .diplome {
@@ -146,4 +147,61 @@ body {
 .experience .experiences .expitem .description .intitule {
     margin: 5px;
     font-weight: 600;
+}
+
+.competence-container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.comp_item {
+    margin: 10px;
+}
+
+.competence {
+    font-weight: 600;
+    margin: 5px;
+}
+
+.description_comp {
+    font-weight: 500;
+    margin: 5px;
+}
+
+.langue-container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.languecompetence {
+    font-weight: 600;
+    margin: 15px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.infocompetence {
+    font-weight: 600;
+    margin: 15px;
+}
+
+.ci-container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.ci {
+    font-weight: 600;
+    margin: 15px;
 }
