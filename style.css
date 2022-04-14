@@ -181,6 +181,10 @@ body {
 
 .langue-item {
     margin: 10px;
+    flex-direction: column;
+    display: flex;
+    /* centrer la bare de progression par rapport au texte au dessus */
+    align-items: center;
 }
 
 .languecompetence {
